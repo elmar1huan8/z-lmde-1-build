@@ -48,7 +48,7 @@ import fileinput
 for line in fileinput.input(dest,inplace =1):
     line = line.strip()
     if not 'debian-installer-launcher' in line:
-        print line 
+        print(line) 
 
 # IceWM startup
 src = dir_develop + '/ui-de/etc_X11_icewm/startup'
