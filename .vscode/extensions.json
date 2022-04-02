@@ -1,3 +1,8 @@
 {
-    "recommendations": []
+    "recommendations": [
+        "mikaelmello.icie",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "VisualStudioExptTeam.vscodeintellicode"
+    ]
 }
