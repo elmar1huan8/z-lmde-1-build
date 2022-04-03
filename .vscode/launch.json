@@ -5,13 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Python: Django",
             "type": "python",
             "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "runserver"
+            ],
+            "django": true,
             "justMyCode": true
         },
-        
-    ]
-}
+        {
+            "name": "Python: Module",
+            "type": "python",
+            "request": "launch",
+            "module": "helloworld",
+            "justMyCode": true
+        },
+    }
