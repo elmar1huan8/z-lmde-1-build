@@ -3,6 +3,7 @@
         "mikaelmello.icie",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "VisualStudioExptTeam.vscodeintellicode"
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-vscode.cpptools-extension-pack"
     ]
 }
